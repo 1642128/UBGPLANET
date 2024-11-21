@@ -1,1 +1,23 @@
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
 
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyBj1098-CMVNpwOsdvoysXh6RuhrasYkK0",
+    authDomain: "geometry-dash32.firebaseapp.com",
+    projectId: "geometry-dash32",
+    storageBucket: "geometry-dash32.firebasestorage.app",
+    messagingSenderId: "111326422383",
+    appId: "1:111326422383:web:544ffab9a4bfbd9ca3749a",
+    measurementId: "G-Q027K9JVW6"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
